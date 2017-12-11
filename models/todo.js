@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 
-var todoSchema = mongoose.Schema({
+var todoSchema = new mongoose.Schema({
 	name: {
 		type: String,
 		required: "Name Cannot Be Blank!"
