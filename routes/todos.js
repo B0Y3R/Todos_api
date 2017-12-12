@@ -5,7 +5,7 @@ var helpers = require("../helpers/todos");
 
 router.route('/')
 	.get(helpers.getTodos)
-	.post(helpers.createTodo);
+	.post(helpers.createTodo)
 
 router.route('/:todoId')
 	.get(helpers.getTodo)
